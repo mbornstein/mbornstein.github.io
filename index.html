@@ -1,108 +1,223 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-    <title>Marvin Bornstein</title>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Marvin Bornstein</title>
 
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-  </head>
-  <body>
-    <div class="welcome">
-      <img class="img_me" src="data/mastered-7343.jpg">
-      <div class="description">
-        <h1 class="text-title">Marvin Bornstein</h1>
-        <ul>
-          <li>Teaching Assistant &amp;</li>
-          <li>Software Engineer</li>
-          <li>&nbsp;</li>
-          <li>studying IT-Systems-Engineering</li> 
-          <li>at the Hasso-Plattner-Institut</li>
-        </ul>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="./data/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="./data/favicon.png" />
+
+  <link rel="stylesheet" href="./styles/w3.css">
+  <link rel="stylesheet" href="./styles/global.css">
+</head>
+
+<body class="w3-light-grey">
+
+  <!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+  <div class="w3-content" style="max-width:1400px">
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-32">
+      <h1>
+        <b>Marvin Bornstein</b>
+      </h1>
+      <p>Software & Data Engineer</p>
+      <div class="w3-container w3-opacity w3-xlarge">
+        <a href="https://www.linkedin.com/in/mcbornstein/" class="no-deco">
+          <i class="fa fa-linkedin-square w3-hover-opacity"></i>
+        </a>
+        <a href="https://github.com/mbornstein" class="no-deco">
+          <i class="fa fa-github-square w3-hover-opacity"></i>
+        </a>
+        <a href="https://www.instagram.com/marvinbornstein/" class="no-deco">
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+        </a>
+        <a href="https://www.facebook.com/marv.brnstn" class="no-deco">
+          <i class="fa fa-facebook-square w3-hover-opacity"></i>
+        </a>
+        <a href="mailto:website@mbornstein.de" class="no-deco">
+          <i class="fa fa-envelope-square w3-hover-opacity"></i>
+        </a>
       </div>
-      <p class="social_references">Also find me on: 
-        <a href="https://www.linkedin.com/in/mcbornstein">LinkedIn</a>
-        &#124;
-        <a href="https://ctftime.org/user/6655">CTF Time</a>
-        &#124;
-        <a href="https://github.com/mbornstein">GitHub</a>
-        &#124;
-        <a href="mailto:website@mbornstein.de">Mail</a>
-      </p>
+    </header>
+
+    <!-- Grid -->
+    <div class="w3-row">
+
+      <!-- Blog entries -->
+      <div class="w3-col l8 s12">
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white">
+          <img src="./content/nexBoard/nexboard@0,5x.jpg" alt="Nature" style="width:100%">
+          <div class="w3-container">
+            <h3>
+              <b>Developing nexboard</b>
+            </h3>
+            <h5>Software Developer at nexenio,
+              <span class="w3-opacity">Oct 2016 – present</span>
+            </h5>
+          </div>
+
+          <div class="w3-container">
+            <p>Nexenio's nexboard is digital whiteboard for real-time collaboration. As one of the first software engineers
+              at nexenio, I developed most of the services form ground up. We use the latest web technologies, such as Node.js,
+              react & redux and socket.io. We ensure quality by continuous integration and high test coverage and dockerized
+              all services and the deployment. I laid the foundation of the computer vision service for postit recognition
+              in images. Furthermore, I have taken roles in the sales process and acquired customers on several international
+              startup and tech fairs.</p>
+            <div class="w3-row">
+              <div class="w3-col m8 s12">
+                <p>
+                  <a href="https://www.nexenio.com/nexboard/">
+                    <button class="w3-button w3-padding-large w3-white w3-border">
+                      <b>READ MORE »</b>
+                    </button>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white">
+          <img src="./content/SAP_intelligent_companion/sap_int_companion@0,5x.jpg" alt="Nature" style="width:100%">
+          <div class="w3-container">
+            <h3>
+              <b>Intelligent Companion iOS App</b>
+            </h3>
+            <h5>Software Engineering Intern at SAP Labs, Palo Alto,
+              <span class="w3-opacity">Aug 2015 – Feb 2016</span>
+            </h5>
+          </div>
+
+          <div class="w3-container">
+            <p>
+              I worked in a 5-people, innovative labs team within the SAP Cloud for Customer (CRM Cloud) product. We leveraged Design Thinking
+              tools to come up with the idea of an intelligent companion. We developed an iOS App that prepares you for meetings,
+              telling you details about the participants, their role and your interactions with them in the past. It learns
+              meeting locations, provides a platform for sharing insights with colleagues and offers a voice interface to
+              help you through the day.</p>
+            <p>The concept was presented at the SAP TechEd Las Vegas 2015, DKOM Germany 2016 and the Mobile World Congress in
+              Barcelona 2016.</p>
+            <!-- <div class="w3-row">
+              <div class="w3-col m8 s12">
+                <p>
+                  <a href="">
+                    <button class="w3-button w3-padding-large w3-white w3-border">
+                      <b>READ MORE »</b>
+                    </button>
+                  </a>
+                </p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- END BLOG ENTRIES -->
+      </div>
+
+      <!-- Introduction menu -->
+      <div class="w3-col l4">
+        <!-- About Card -->
+        <div class="w3-card w3-margin w3-margin-top w3-white">
+          <img src="data/me.jpg" class="center w3-circle w3-padding-16">
+          <div class="w3-container w3-white">
+            <h4>
+              <b>About me</b>
+            </h4>
+            <p>Passionate about data engineering, information security and web development. I have been working as a software
+              engineer since 2013. Mostly 10 to 20 hours per week as working student. This includes full stack web development,
+              iOS development and computer vision engineering. Because programming has always also been a hobby of mine,
+              I have done several personal projects. You are very welcome to explore them here or on
+              <a href="./data/resume.pdf">my resume</a>
+            </p>
+          </div>
+        </div>
+        <hr>
+
+        <!-- Posts -->
+        <div class="w3-card w3-margin">
+          <div class="w3-container w3-padding">
+            <h4>Popular Posts</h4>
+          </div>
+          <ul class="w3-ul w3-hoverable w3-white">
+            <li class="w3-padding-16">
+              <img src="./W3.CSS Template_files/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+              <span class="w3-large">Lorem</span>
+              <br>
+              <span>Sed mattis nunc</span>
+            </li>
+            <li class="w3-padding-16">
+              <img src="./W3.CSS Template_files/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+              <span class="w3-large">Ipsum</span>
+              <br>
+              <span>Praes tinci sed</span>
+            </li>
+            <li class="w3-padding-16">
+              <img src="./W3.CSS Template_files/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+              <span class="w3-large">Dorum</span>
+              <br>
+              <span>Ultricies congue</span>
+            </li>
+            <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+              <img src="./W3.CSS Template_files/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+              <span class="w3-large">Mingsum</span>
+              <br>
+              <span>Lorem ipsum dipsum</span>
+            </li>
+          </ul>
+        </div>
+        <hr>
+
+        <!-- Labels / tags
+        <div class="w3-card w3-margin">
+          <div class="w3-container w3-padding">
+            <h4>Tags</h4>
+          </div>
+          <div class="w3-container w3-white">
+            <p>
+              <span class="w3-tag w3-black w3-margin-bottom">Travel</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
+            </p>
+          </div>
+        </div> -->
+
+        <!-- END Introduction Menu -->
+      </div>
+
+      <!-- END GRID -->
     </div>
-    <section>
-      <div class="diashow">
-        <img src="data/experience.png">
-      </div>
-      <h2>Experience and Projects</h2>
-      <p>
-        Within my work as student assistant, I earned the most experience about developing in a team. The biggest project was <em>openHPI</em>, were I worked for 15 months. Always have a look at my <a href="/data/mbornstein-resume.pdf">PDF Resume</a>.
-      </p>
-      <p>
-        A few projects I contributed to, can be found on <a href="https://github.com/mbornstein">Github</a>. For a computer graphics seminar, a fellow student and I worked on a 3D Scene viewer developed in C++ with Qt and OpenGL and implemented <em>Cascaded Variance Shadow Mapping</em>. Within a software technique and architecture course, we created the <em>Morphic Testing Framework</em>, which is a small framework to test the morphic UI of squeak smalltalk (like selenium for web applications). Lastly, for an HCI course, we built a fitness application for interactive floors, after a design thinking like process (<a href="data/paper.pdf">see our paper</a>).
-      </p>
-    </section>
-    <section>
-      <div class="diashow">
-        <img src="data/education.jpg">
-      </div>
-      <h2>Education</h2>
-      <p>
-        Currently, I am studying IT-Systems Engineering at the Hasso-Plattner-Institute (HPI) in Potsdam. We learn a lot about programming and software architecture besides general computer science topics. In particular, I gained deeper knowledge about Internet technologies, information security and computer graphics.
-      </p>
-      <p>
-        In the last 2 semesters of the bachelors degree, I had the possibility to do a project with a business partner and 5 fellow students. We have worked with Colgate-Palmolive and implemented a dynamic algorithm for real-time routing and clustering, using the SAP HANA in-memory technology with on-the-fly aggregated sales data. This enables Sales Representatives in France to negotiate products and promotions with retail stores more efficiently.
-      </p>
-    </section>
-    <section>
-      <div class="diashow">
-        <img src="data/ctf.jpg">
-        <img src="data/devfest.jpg">
-      </div>
-      <h2>Hackathons and CTFs</h2>
-      <p>Since I am fascinated by OS and internet security, I regularly participate in open CTFs (<em>capture the flag</em> in infosec) together with my university team. (check us out <a href="https://ctftime.org/team/10365">here</a>)</p>
-      <p>Furthermore, two friends and I won the third prize at <a href="http://devfest-berlin.de/#/2014/about">GDG DevFest 2014</a> (a Hackathon sponsored by Google and Immobilienscout24: <a href="https://plus.google.com/photos/116495772997450383126/albums/6073481044801655761">Google+ Event Photos</a>). It was an awesome weekend event with lots of good talks about recent web, android and cloud topics. We developed a multiplayer 'halli galli' game as a webapp, that is played with smartwatches using the built-in motion sensor.</p>
-    </section>
-    <section>
-      <div class="diashow">
-        <img src="data/music.jpg">
-      </div>
-      <h2>Music and Bands</h2>
-      <p>
-        Back in 2005, I joined the <em>Fanfarenzug Strausberg</em> as a drummer and started to learn playing the guitar after on. I took guitar lessons for 7 years in different music schools and am now practicing myself. Before my studies at the university, I played in several bands as a guitarist and bassist. We performed on dancing school and high school events. Nowadays, I meet with fellow students and colleagues to play just for fun.
-      </p>
-    </section>
-    <section>
-      <div class="diashow">
-        <img src="data/photo_1.jpg">
-        <img src="data/photo_2.jpg">
-      </div>
-      <h2>Photography and Filmmaking</h2>
-      <p>Even though I chose the music path early in my life and rejected arts, I finally got into photography and bought myself a DSLR. I try to tease everything out of my gear. Because of the great open source culture, I can do even more using the Magic Lantern firmware. Feel free to check some pictures out <a href="/photography">here</a>.</p>
-    </section>
-    <section>
-      <div class="diashow">
-        <img src="data/sports_1.jpg">
-        <img src="data/sports_2.jpg">
-      </div>
-      <h2>Sports</h2>
-      <p>Back in school I used  to ride my bike a lot, but today I rarely have to overcome long distances. This is why I joined the local fitness centre and took some university sports courses. Windsurfing for example was a lot of fun, I even passed the windsurf exam and got the international basic license. Later, I started to boulder indoor. After times with aching hands, I find myself improving from time to time. Because there are so much kinds of sports to discover, I also enrolled for the parcours course in 2015.</p>
-    </section>
-    <!-- <p class="copyright">Copyright &copy; by Marvin Bornstein 2015 - 2016</p> -->
+    <br>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!-- END w3-content -->
+  </div>
 
-      ga('create', 'UA-62894018-1', 'auto');
-      ga('send', 'pageview');
+  <!-- Footer
+  <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+    <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+    <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+  </footer> -->
 
-    </script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="scripts/main.js"></script>
-  </body>
+</body>
+
+<script src="https://use.fontawesome.com/2c7ec646d0.js"></script>
+
 </html>
