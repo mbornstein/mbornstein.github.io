@@ -51,6 +51,47 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-col l8 s12">
         <!-- Blog entry -->
         <div class="w3-card-4 w3-margin w3-white">
+          <img src="./content/NSIP/overview@0,5x.jpg" alt="Nature" style="width:100%">
+          <div class="w3-container">
+            <h3>
+              <b>Hacking an IP security camera</b>
+            </h3>
+            <h5>Seminar gone wild,
+              <span class="w3-opacity">Apr 2017</span>
+            </h5>
+          </div>
+
+          <div class="w3-container">
+            <p>In an IoT secruity seminar, Balthasar Martin and I went on to buy an arbitrary IP camera on eBay and audit it.
+              Motivated by the Mirai Botnet attack on DynDNS we reverse engineered the firmware and communication protocol.
+              We found several vulnerabilities and built a RCE POC that could install a new firmware with arbitrary payload.
+              So not only could we access private video feeds, but also build a huge botnet.
+            </p>
+            <p>
+              <a href="https://srlabs.de/bites/cloud-cameras/">My colleague continued the research at SRLabs Berlin</a> and identified hundreds of thousands devices as vulnerable
+              to our attack. The results were presented at DeepSec on Nov 16 2017 and
+              <a href="https://www.golem.de/news/ip-kameras-wie-man-ein-botnetz-durch-die-firewall-baut-1711-131192.html">also covered in the news on golem.de</a>.</p>
+            <div class="w3-row">
+              <p>
+                <a href="./content/NSIP/report.pdf" class="no-deco">
+                  <button class="w3-button w3-padding-large w3-white w3-border">
+                    <b>Report »</b>
+                  </button>
+                </a>
+                <a href="./content/NSIP/IoT camera audit.pdf" class="no-deco">
+                  <button class="w3-button w3-padding-large w3-white w3-border">
+                    <b>Slides »</b>
+                  </button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white">
           <img src="./content/nexBoard/nexboard@0,5x.jpg" alt="Nature" style="width:100%">
           <div class="w3-container">
             <h3>
@@ -215,10 +256,6 @@ and is wrapped around the whole page content, except for the footer in this exam
             </div>
           </div>
         </div>
-
-        <hr>
-
-
 
         <!-- END BLOG ENTRIES -->
       </div>
