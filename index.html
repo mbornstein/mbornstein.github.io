@@ -49,6 +49,43 @@ and is wrapped around the whole page content, except for the footer in this exam
 
       <!-- Blog entries -->
       <div class="w3-col l8 s12">
+
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white">
+          <img src="./content/text_mining_summarizer/algo.png" alt="Algorithm pipeline" style="width:100%">
+          <div class="w3-container">
+            <h3>
+              <b>Discussion summarization</b>
+            </h3>
+            <h5>seminar project,
+              <span class="w3-opacity">April – Aug 2018</span>
+            </h5>
+          </div>
+
+          <div class="w3-container">
+            <p>Two fellow students and I created a deep learning algorithm to summarize discussions on online news articles.
+              It is based on a convolutional sequence model and FastText embeddings. We combined it with a triplet loss objective,
+              which is usually used to recognize faces in images. Everything was implemented in Python using Keras/Tensorflow
+              and trained on a dataset of 63 million guardian online comments. The biggest technical challenge was to train
+              the model with all data points, which would not fit in memory, and guarantee fast access during training. I
+              solved this by implementing a problem specific caching and indexing strategy.</p>
+            <div class="w3-row">
+              <p>
+                <!--<a href="https://github.com/WGierke/text_mining_in_practice" class="no-deco">
+                  <button class="w3-button w3-padding-large w3-white w3-border">
+                    <b>Code »</b>
+                  </button>
+                </a>-->
+                <a href="./content/text_mining_summarizer/Text_Mining_Discussion_Summarization.pdf" class="no-deco">
+                  <button class="w3-button w3-padding-large w3-white w3-border">
+                    <b>Paper »</b>
+                  </button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
         <!-- Blog entry -->
         <div class="w3-card-4 w3-margin w3-white">
           <img src="./content/photobox/overview@0,5x.jpg" alt="Nature" style="width:100%">
