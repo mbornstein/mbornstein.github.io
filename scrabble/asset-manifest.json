@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc727646.css",
-    "main.js": "/static/js/main.15e32e18.js",
-    "index.html": "/index.html",
-    "main.cc727646.css.map": "/static/css/main.cc727646.css.map",
-    "main.15e32e18.js.map": "/static/js/main.15e32e18.js.map"
+    "main.css": "/scrabble/static/css/main.cc727646.css",
+    "main.js": "/scrabble/static/js/main.15e32e18.js",
+    "index.html": "/scrabble/index.html",
+    "main.cc727646.css.map": "/scrabble/static/css/main.cc727646.css.map",
+    "main.15e32e18.js.map": "/scrabble/static/js/main.15e32e18.js.map"
   },
   "entrypoints": [
     "static/css/main.cc727646.css",
