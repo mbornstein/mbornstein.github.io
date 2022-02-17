@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/scrabble/static/css/main.ccaf87e4.css",
-    "main.js": "/scrabble/static/js/main.dad8f784.js",
+    "main.js": "/scrabble/static/js/main.cf1d8614.js",
     "index.html": "/scrabble/index.html",
     "main.ccaf87e4.css.map": "/scrabble/static/css/main.ccaf87e4.css.map",
-    "main.dad8f784.js.map": "/scrabble/static/js/main.dad8f784.js.map"
+    "main.cf1d8614.js.map": "/scrabble/static/js/main.cf1d8614.js.map"
   },
   "entrypoints": [
     "static/css/main.ccaf87e4.css",
-    "static/js/main.dad8f784.js"
+    "static/js/main.cf1d8614.js"
   ]
 }
