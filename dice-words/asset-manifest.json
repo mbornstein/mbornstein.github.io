@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dice-words/static/css/main.e8ae2d94.css",
+    "main.css": "/dice-words/static/css/main.3d17c15e.css",
     "main.js": "/dice-words/static/js/main.e7d2f1e2.js",
     "index.html": "/dice-words/index.html",
-    "main.e8ae2d94.css.map": "/dice-words/static/css/main.e8ae2d94.css.map",
+    "main.3d17c15e.css.map": "/dice-words/static/css/main.3d17c15e.css.map",
     "main.e7d2f1e2.js.map": "/dice-words/static/js/main.e7d2f1e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8ae2d94.css",
+    "static/css/main.3d17c15e.css",
     "static/js/main.e7d2f1e2.js"
   ]
 }
